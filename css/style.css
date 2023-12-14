@@ -4,7 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
     border: none;
     outline: none;
     scroll-behavior: smooth;
@@ -200,6 +200,18 @@ header {
     display: flex;
     gap: 1rem;
 }
+
+.Deskripsi {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+/* .header-action-aria {
+    margin-bottom: 35px;
+    margin-top: 30px;
+    
+} */
 
 .header-social {
     display: flex;
