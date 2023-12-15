@@ -369,7 +369,7 @@ section {
 }
 
 .btn-primary {
-    background-color: black;
+    background-color: var(--color-black);
     color: white;
     border: none;
     padding: 10px 20px;
