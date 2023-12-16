@@ -267,16 +267,17 @@ section {
     position: relative;
 }
 
-.arrow {
+/* .arrow {
     position: absolute;
     right: 5%;
     transition: va(--transition);
     margin-top: 1,4rem;
+    bottom: 45rem;
 }
 
 .arrow:hover {
     margin-top: .2rem;
-}
+} */
 .skill-container {
     display: grid;
     grid-template-columns:1fr 1fr;
