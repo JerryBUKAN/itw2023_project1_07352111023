@@ -337,17 +337,20 @@ section {
 
 /* Star Contact */
 
+.contact-container {
+    max-width: 100%;
+    margin: 0 auto;
+}
 .contact-form {
     border-radius: 5px;
     padding: 5px;
     text-align: left;
-    /* margin-top: 20px; */
-    width: 500px;
+    width: 60%;
     margin: 0 auto;
 }
 
 .form-group {
-    margin: 10px 0;
+    margin: px 0;
 }
 
 .form-group label {
@@ -379,7 +382,7 @@ section {
     justify-content: center;
     display: flex;
     align-items: center;
-    margin: 0 auto;
+    margin: 10px auto;
 }
 
 .btn-primary:hover {
@@ -427,7 +430,7 @@ footer .nav-link {
 /* Max-Width(991px) */
 @media (max-width:991px) {
     /* nav */
-    .logo {
+    .Logo {
         display: none;
     }
     .nav-link {
@@ -454,6 +457,10 @@ footer .nav-link {
         right: 5%;
     }
 
+    /* skill */
+    .skill-container {
+        grid-template-columns: 1fr;
+    }
     /* Header */
     .header-container {
         width: 90%;
