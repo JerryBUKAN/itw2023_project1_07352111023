@@ -203,12 +203,6 @@ header {
     gap: 1rem;
 }
 
-.Deskripsi {
-    margin-bottom: 10px;
-    margin-top: 10px;
-    text-align: left;
-}
-
 .header-social {
     display: flex;
     gap: 1rem;
@@ -253,6 +247,13 @@ header {
     border: 1px solid var(--color-dark-variant);
     border-radius: 30px;
     width: 100%;
+}
+
+.about-deskripsi {
+    font-size: 17px;
+    line-height: 140%;
+    color: var(--color-dark-variant);
+    text-align: justify;
 }
 
 /* End About Me */
@@ -305,15 +306,23 @@ section {
 }
 
 .project {
-    padding: 24px;
+    padding: 19px;
     border: 1px solid var(--color-dark-variant);
     border-radius: 30px;
     text-align: center;
+    width: 350px;
+    word-wrap: break-word;
 }
 
 .project img {
     border-radius: 30px;
     margin-bottom: 1rem;
+}
+
+.Deskripsi {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: justify;
 }
 /* End project */
 
