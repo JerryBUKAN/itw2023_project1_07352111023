@@ -310,8 +310,6 @@ section {
     border: 1px solid var(--color-dark-variant);
     border-radius: 30px;
     text-align: center;
-    width: 350px;
-    word-wrap: break-word;
 }
 
 .project img {
